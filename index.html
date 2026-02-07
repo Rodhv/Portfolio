@@ -3,166 +3,183 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nova Sterling | Portfolio</title>
+    <title>Toukoum-inspired Portfolio</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Playfair+Display:wght@500;600&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="hero">
+    <header class="hero" id="top">
       <nav class="nav">
-        <div class="logo">Nova</div>
+        <div class="brand">
+          <span class="brand-mark"></span>
+          <span class="brand-name">Emma B.</span>
+        </div>
         <div class="nav-links">
           <a href="#work">Work</a>
           <a href="#about">About</a>
           <a href="#services">Services</a>
-          <a href="#contact" class="button ghost">Let&apos;s talk</a>
+          <a href="#contact" class="button">Let&apos;s talk</a>
         </div>
       </nav>
-      <div class="hero-grid">
+
+      <div class="hero-layout">
         <div class="hero-copy">
-          <p class="eyebrow">Digital Product Designer</p>
+          <p class="eyebrow">Freelance Product Designer</p>
           <h1>
-            Crafting bold digital experiences for brands ready to move fast.
+            Building tactile, modern digital products for teams that value story
+            and speed.
           </h1>
           <p class="lead">
-            I build immersive product journeys, expressive visuals, and
-            human-first systems that help teams ship with confidence.
+            I help founders shape new ideas into warm, confident experiences.
+            From first sketch to launch-ready design systems, I craft work that
+            feels human and cinematic.
           </p>
           <div class="hero-actions">
-            <a class="button primary" href="#contact">Book a session</a>
-            <a class="button secondary" href="#work">View case studies</a>
+            <a href="#contact" class="button primary">Book a discovery call</a>
+            <a href="#work" class="button ghost">View projects</a>
           </div>
           <div class="hero-meta">
             <div>
-              <p class="meta-title">Clients</p>
-              <p class="meta-value">Shopify, Calm, Airbnb</p>
+              <p class="meta-title">Based</p>
+              <p>Paris · Remote</p>
             </div>
             <div>
-              <p class="meta-title">Based in</p>
-              <p class="meta-value">Copenhagen · Remote</p>
+              <p class="meta-title">Specialty</p>
+              <p>Product &amp; Brand Design</p>
             </div>
           </div>
         </div>
         <div class="hero-card">
-          <div class="floating-card">
-            <p class="tag">Now booking</p>
-            <h3>Studio Hours</h3>
-            <p class="muted">
-              I take on 2 new client projects every month. Let&apos;s build your
-              next standout launch.
-            </p>
-            <div class="stacked-avatars">
-              <span></span>
-              <span></span>
-              <span></span>
-              <span></span>
+          <div class="profile-card">
+            <div class="profile-top">
+              <div>
+                <p class="meta-title">Currently</p>
+                <h3>Open for 2 new clients</h3>
+              </div>
+              <span class="status">May 2024</span>
             </div>
-            <button class="button primary" type="button">Reserve slot</button>
+            <p>
+              I work with early-stage teams to translate ambitious ideas into
+              elegant, revenue-ready products.
+            </p>
+            <div class="profile-tags">
+              <span>Strategy</span>
+              <span>Design Systems</span>
+              <span>Storytelling</span>
+            </div>
+            <button class="button primary" type="button">Reserve a slot</button>
           </div>
         </div>
       </div>
     </header>
 
     <main>
-      <section id="work" class="section">
+      <section id="work" class="section work">
         <div class="section-head">
           <div>
-            <p class="eyebrow">Selected work</p>
-            <h2>Shipping bold ideas into beautiful products.</h2>
+            <p class="eyebrow">Selected Work</p>
+            <h2>Recent projects with ambitious teams.</h2>
           </div>
-          <a class="button ghost" href="#contact">Download portfolio</a>
+          <a class="button ghost" href="#contact">Download PDF</a>
         </div>
-        <div class="card-grid">
+        <div class="work-grid">
           <article class="work-card">
-            <div class="work-image gradient-one"></div>
+            <div class="work-image" aria-hidden="true"></div>
             <div class="work-body">
-              <h3>Pulse Finance</h3>
-              <p>Design system + mobile banking MVP for Gen Z investors.</p>
+              <h3>Northwind Studio</h3>
+              <p>Brand refresh and editorial site for a design collective.</p>
+              <span>Brand + Web</span>
             </div>
           </article>
           <article class="work-card">
-            <div class="work-image gradient-two"></div>
+            <div class="work-image work-image-two" aria-hidden="true"></div>
             <div class="work-body">
-              <h3>Orbit Labs</h3>
-              <p>Brand refresh and marketing site for an AI studio.</p>
+              <h3>Lumen Care</h3>
+              <p>Product strategy and UI system for a healthtech platform.</p>
+              <span>Product + UX</span>
             </div>
           </article>
           <article class="work-card">
-            <div class="work-image gradient-three"></div>
+            <div class="work-image work-image-three" aria-hidden="true"></div>
             <div class="work-body">
-              <h3>Lumen Health</h3>
-              <p>Patient experience design for a digital wellness platform.</p>
+              <h3>Maison Valeur</h3>
+              <p>Immersive e-commerce for a luxury home goods brand.</p>
+              <span>Commerce + Visual</span>
             </div>
           </article>
         </div>
       </section>
 
-      <section id="about" class="section split">
-        <div>
+      <section id="about" class="section about">
+        <div class="about-text">
           <p class="eyebrow">About</p>
-          <h2>Designing with clarity, motion, and narrative.</h2>
+          <h2>Designing calm, confident experiences for growing brands.</h2>
           <p>
-            I&apos;m Nova, a product designer with 8+ years of experience helping
-            teams shape ambitious ideas into polished digital experiences. I
-            blend research, rapid prototyping, and refined visuals to create
-            product stories that convert.
+            I&apos;m Emma, a Paris-based designer with 9 years of experience across
+            product, brand, and digital storytelling. I partner with founders and
+            creative teams to build experiences that feel tactile, inviting, and
+            unmistakably premium.
           </p>
           <div class="stats">
             <div>
-              <h3>120+</h3>
-              <p>Projects shipped</p>
+              <h3>90+</h3>
+              <p>Launches supported</p>
             </div>
             <div>
-              <h3>18</h3>
-              <p>Countries served</p>
+              <h3>12</h3>
+              <p>Industries served</p>
             </div>
             <div>
-              <h3>5</h3>
-              <p>Product awards</p>
+              <h3>6</h3>
+              <p>Design awards</p>
             </div>
           </div>
         </div>
-        <div class="about-card">
-          <h3>Capabilities</h3>
-          <ul>
-            <li>Product strategy &amp; vision</li>
-            <li>UI systems &amp; interaction design</li>
-            <li>Brand direction &amp; storytelling</li>
-            <li>Prototyping &amp; usability testing</li>
-          </ul>
-          <div class="availability">
-            <p>Next opening</p>
-            <h4>May 2024</h4>
+        <div class="timeline">
+          <div class="timeline-item">
+            <span>2024</span>
+            <h4>Lead designer · Atelier Studio</h4>
+            <p>Guiding product storytelling for high-growth SaaS brands.</p>
+          </div>
+          <div class="timeline-item">
+            <span>2021</span>
+            <h4>Senior designer · Maison Digital</h4>
+            <p>Reimagined luxury commerce experiences.</p>
+          </div>
+          <div class="timeline-item">
+            <span>2018</span>
+            <h4>Visual designer · Northwind</h4>
+            <p>Built expressive brand systems and editorial sites.</p>
           </div>
         </div>
       </section>
 
-      <section id="services" class="section">
+      <section id="services" class="section services">
         <div class="section-head">
           <div>
             <p class="eyebrow">Services</p>
-            <h2>Flexible ways to build together.</h2>
+            <h2>Flexible engagements that move fast.</h2>
           </div>
         </div>
         <div class="service-grid">
           <div class="service-card">
-            <h3>Product Sprints</h3>
-            <p>Rapid 2-week design sprints to validate big ideas.</p>
-            <span>Starting at $4k</span>
+            <h3>Discovery Sprint</h3>
+            <p>Two-week sprint to align vision, scope, and rapid prototypes.</p>
+            <span>From $3,800</span>
           </div>
           <div class="service-card">
-            <h3>Design Partner</h3>
-            <p>Embedded design leadership for scaling teams.</p>
+            <h3>Product Partner</h3>
+            <p>Embedded design leadership for product and marketing teams.</p>
             <span>Monthly retainers</span>
           </div>
           <div class="service-card">
-            <h3>Brand Systems</h3>
-            <p>Visual identity and motion systems for new launches.</p>
+            <h3>Brand Launch</h3>
+            <p>Identity, web, and art direction for new brands.</p>
             <span>Custom scope</span>
           </div>
         </div>
@@ -170,43 +187,42 @@
 
       <section id="contact" class="section contact">
         <div class="contact-card">
-          <p class="eyebrow">Let&apos;s build</p>
-          <h2>Ready to create something unforgettable?</h2>
+          <p class="eyebrow">Contact</p>
+          <h2>Let&apos;s design something unforgettable.</h2>
           <p>
-            Tell me about your launch, and I&apos;ll respond within 48 hours with a
-            tailored approach.
+            Share a few details about your product or brand. I&apos;ll reply within
+            two business days with a tailored plan.
           </p>
           <form class="contact-form">
-            <input type="text" placeholder="Name" />
-            <input type="email" placeholder="Email" />
-            <input type="text" placeholder="Company" />
-            <button class="button primary" type="submit">Send message</button>
+            <div class="form-row">
+              <input type="text" placeholder="Name" />
+              <input type="email" placeholder="Email" />
+            </div>
+            <input type="text" placeholder="Company / Project" />
+            <textarea placeholder="Tell me about your idea"></textarea>
+            <button class="button primary" type="submit">Send inquiry</button>
           </form>
         </div>
         <div class="contact-details">
           <div>
             <p class="meta-title">Email</p>
-            <p>hello@novasterling.design</p>
+            <p>hello@emmabostian.design</p>
           </div>
           <div>
             <p class="meta-title">Social</p>
-            <p>Instagram · Behance · Dribbble</p>
+            <p>Instagram · Behance · LinkedIn</p>
           </div>
           <div>
             <p class="meta-title">Availability</p>
-            <p>Booking June - July 2024</p>
+            <p>Next opening · June 2024</p>
           </div>
         </div>
       </section>
     </main>
 
     <footer class="footer">
-      <p>© 2024 Nova Sterling. Designed with clarity and intent.</p>
-      <div class="footer-links">
-        <a href="#work">Work</a>
-        <a href="#about">About</a>
-        <a href="#services">Services</a>
-      </div>
+      <p>© 2024 Emma Bostian. Crafted with warmth and clarity.</p>
+      <a href="#top">Back to top</a>
     </footer>
   </body>
 </html>
